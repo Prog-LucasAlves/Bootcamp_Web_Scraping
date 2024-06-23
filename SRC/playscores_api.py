@@ -10,3 +10,7 @@ def jogos():
     content = requests.get(url, headers=headers)
 
     return print(content)
+
+
+if __name__ == "__main__":
+    jogos()
